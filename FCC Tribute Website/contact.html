@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width">
+       <meta name="description" content="A Tribute to Wendy Carlos">
+       <meta name="author" content="Juan Montoya">
+       <title>Tribute | Wendy Carlos</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+       <link rel="stylesheet" href="./css/style.css">
+       <link rel="stylesheet" href="./css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather|Montserrat|Open+Sans|Raleway|Roboto|Roboto+Slab" rel="stylesheet">
+ </head>
+ <body>
+    <header>
+      <div class="container">
+        <div class=row>
+             <div class="col-2">
+                  <h1 id="logo">
+                      <a href="index.html"><span class="highlight">WENDY</span> CARLOS</a>
+                 </h1>
+            </div>
+            <div class="col-4">
+            </div>
+            <div class="col-6">
+                 <div id="nav">
+                      <div id="nav_wrapper">
+                           <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li> <a href="about.html">About</a>
+                                     <ul>
+                                          <li><a href="about.html#accordian1">Early Life</a></li>
+                                          <li><a href="about.html#accordian2">Career</a></li>
+                                          <li><a href="about.html#accordian3">Awards &amp; Honors</a></li>
+                                     </ul>
+                                </li>
+                                <li> <a href="discography.html">Discography</a></li>
+                                <li class="current"> <a href="contact.html">Contact</a></li>
+                         </ul>
+                      </div>
+                 </div>
+           </div>
+      </div>
+     </div>
+    </header>
+
+     <!-- Title -->
+     <section>
+          <h1 class="pagetitle">
+               Contact
+          </h1>
+     </section>
+
+    <!-- Main Content -->
+    <fieldset class="theform">
+         <legend class="formHeader">Send a message to Wendy</legend>
+         <label>Name:<br>
+              <input type="text" name="name" placeholder="Name"/>
+         </label><br>
+         <label>Email:<br>
+              <input type="text" name="email" placeholder="Email"/>
+         </label><br />
+         <label>Message:<br>
+              <textarea name="message" placeholder="Message..."></textarea>
+         </label>
+         <br>
+         <input id="submit" type="submit" value="Submit">
+    </fieldset>
+    <br>
+    <h4 style="text-align: center">
+         For more information on Wendy visit:
+    </h4>
+          <p style="text-align: center; font-size: 1em"><a style="color: #ff7a2b" href="http://www.wendycarlos.com" target="_blank">www.wendycarlos.com</a></p>
+
+    <footer>
+         <p>Copyright &copy; 2017</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script> $('.theform').on("click", '#submit', function(e){alert('Message Sent');});</script>
+</body>
+</html>
